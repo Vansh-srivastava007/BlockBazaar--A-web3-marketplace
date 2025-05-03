@@ -1,0 +1,43 @@
+/* Styles go here */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-container {
+    margin-top: 5em;
+    padding: 1em 0em 1em 0em;
+    height: 90vh;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+}
+
+.brand-radius {
+    border-radius: 10px;
+}
+
+.metamask-logo {
+    width: 30px;
+    margin: 0px 10px 0px 10px;
+}
+
+a.bg-warning:hover, a.bg-warning:focus, button.bg-warning:hover, button.bg-warning:focus {
+    background-color: #ffc107 !important;
+}
+
+.pill {
+    border-radius: 25px;
+}
+
+#blockBay-home-page {
+    height: 50em;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(255, 255, 255, 0) 20%,
+        rgba(255, 255, 255, 0) 80%,
+        rgba(255, 255, 255, 1) 100%
+    ), url('/images/blockBay_home_page.jpg');
+    background-size: cover;
+}
